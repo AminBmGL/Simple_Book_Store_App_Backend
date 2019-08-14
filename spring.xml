@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc:annotation-driven >
+	<mvc:message-converters>
+		<bean class="org.springframework.http.converter.StringHttpMessageConverter"></bean>
+		<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"></bean>
+	</mvc:message-converters>
+</mvc:annotation-driven>
